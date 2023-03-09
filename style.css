@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: #1F2937;
+}
+header nav{
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+header nav .menu ul{
+    display: flex;
+    gap: 2rem;
+}
+header .hero{
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+header h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 1;
+    padding-bottom: 1rem;
+}
+header ul{
+    list-style: none;
+}
+header h2,
+header ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: 100;
+}
+header .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+header img{
+    width: 36rem;
+    height: 18rem;
+}
+header button{
+    margin-top: 1rem;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+}
+main{
+    padding-top: 3rem;
+}
+main .one{
+    padding: 5rem 0;
+}
+main h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 3rem;
+}
+main .one .flex-card{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+main .one .card{
+    width: 10rem;
+}
+main .one .card .image{
+    aspect-ratio: 1/1;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+main .one .card p{
+    font-size: 1.1rem;
+    color: #1F2937;
+    padding-top: 0.2rem;
+    text-align: center;
+}
+main .quote{
+    background-color: #E5E7EB;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 5rem 20rem;
+}
+main .quote q{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    text-align: center;
+}
+main .quote p{
+    text-align: right;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+.cta .blue-box{
+    width: 60rem;
+    background-color: #3882F6;
+    padding: 3rem 6rem;
+    border-radius: 1rem;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta h3{
+    font-size: 1.6rem;
+}
+.cta p{
+    font-size: 1rem;
+    color: #E5E7EB;
+}
+.cta button{
+    background-color: #3882F6;
+    border-radius: 0.7rem;
+    border: 3px solid #F9FAF8;
+    font-size: 1rem;
+    padding: 0.6rem 2rem;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+footer{
+    background-color: #1F2937;
+    padding: 3rem;
+    text-align: center;
+    color: #F9FAF8;
+    font-weight: 200;
+    font-size: 1rem;
+}
